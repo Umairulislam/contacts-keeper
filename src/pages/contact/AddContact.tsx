@@ -3,12 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import {
-  Form,
-  redirect,
-  useActionData,
-  type ActionFunction,
-} from "react-router"
+import { Form, redirect, useActionData, type ActionFunction } from "react-router"
 import { toast } from "sonner"
 
 export const addContactAction: ActionFunction = async ({ request }) => {
@@ -32,9 +27,7 @@ export const addContactAction: ActionFunction = async ({ request }) => {
       email: email,
     })
     toast("Contact added", {
-      description: (
-        <p className="text-foreground">New contact saved successfully.</p>
-      ),
+      description: <p className="text-foreground">New contact saved successfully.</p>,
     })
 
     return redirect("/contacts")
@@ -66,6 +59,8 @@ const AddContact = () => {
             name="firstName"
             id="firstName"
             placeholder="John"
+            minLength={2}
+            maxLength={50}
             required
           />
         </div>
@@ -78,6 +73,8 @@ const AddContact = () => {
             name="lastName"
             id="lastName"
             placeholder="Doe"
+            minLength={2}
+            maxLength={50}
             required
           />
         </div>
@@ -90,6 +87,7 @@ const AddContact = () => {
             name="email"
             id="email"
             placeholder="john@example.com"
+            maxLength={50}
             required
           />
         </div>
