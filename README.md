@@ -45,4 +45,6 @@ It provides full CRUD functionality with a clean UI, real-time feedback, and mod
    ```
 4. Open your browser and navigate to `http://localhost:5173`
 
-### 🌟 Built with ❤️ & Type Safety
+## 👨‍💼 Author
+
+Crafted with care by **Engr. Umair Ul Islam**
