@@ -44,3 +44,5 @@ It provides full CRUD functionality with a clean UI, real-time feedback, and mod
    npm run dev
    ```
 4. Open your browser and navigate to `http://localhost:5173`
+
+### 🌟 Built with ❤️ & Type Safety
