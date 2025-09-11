@@ -19,12 +19,12 @@ It provides full CRUD functionality with a clean UI, real-time feedback, and mod
 
 ## 🛠 Tech Stack
 
-![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white)  
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)  
-![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)  
-![React Router](https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white)  
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)  
-![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-000000?logo=radixui&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)  
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)  
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)  
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)  
+![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-000000?style=for-the-badge&logo=radixui&logoColor=white)
 
 ## 🚀 Getting Started
 
